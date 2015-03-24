@@ -28,14 +28,14 @@ module.exports = {
 	        if(match) {
 
 	        } else {
-	          res.redirect('/')
+	          res.redirect('/');
 	        }
 	      });
-	    };
-	  }
+	    }
+	  });
 	},
 
 	logout: function(req, res, next){
 
 	}
-}
+};
